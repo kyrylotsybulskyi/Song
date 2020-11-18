@@ -1,0 +1,15 @@
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+p {
+    white-space: pre-wrap;
+}
+
+span {
+    font-weight: 900;
+}
