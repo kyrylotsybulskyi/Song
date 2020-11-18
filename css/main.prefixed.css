@@ -14,13 +14,19 @@ span {
     font-weight: 900;
     color: green;
     font-size: 24px;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
 }
 
 body {
+    display: -ms-grid;
     display: grid;
     transition: all .5s;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     background: linear-gradient(to bottom, white, black);
 }
